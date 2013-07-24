@@ -3,6 +3,13 @@ GEM
   specs:
     daemons (1.1.9)
     eventmachine (0.12.10)
+    hostip (0.2.1)
+      httparty
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    multi_json (1.7.7)
+    multi_xml (0.5.4)
     rack (1.4.1)
     sinatra (1.1.0)
       rack (~> 1.1)
@@ -17,5 +24,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  hostip
   sinatra (= 1.1.0)
   thin
