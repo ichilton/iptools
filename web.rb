@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  "Your IP address is #{request.ip}"
+  "Your IP address is: #{request.ip}"
 end
 
 get '/api/ip' do
