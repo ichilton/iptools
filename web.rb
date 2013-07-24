@@ -1,5 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  "Hello, world"
+  "Your IP address is #{request.ip}"
 end
+
